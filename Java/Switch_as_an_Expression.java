@@ -1,4 +1,4 @@
-class Pr2{
+class Switch_as_an_Expression{
     public static void main(String[] args) {
         //Switch as an Expression
         int day=5;

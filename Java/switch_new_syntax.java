@@ -1,4 +1,4 @@
-class Pr1{
+class switch_new_syntax{
     public static void main(String[] args) {
         int day=5;
         switch(day){
