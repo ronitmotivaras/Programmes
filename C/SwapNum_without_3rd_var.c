@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-    //Swap Number With 3rd Variable
+    //Swap Number Without 3rd Variable
     int a,b,c;
     printf("Enter 2 Numbers : ");
     scanf("%d %d",&a,&b);
 
-    c=a;
-    a=b;
-    b=c;
+    a=a+b;
+    b=a-b;
+    a=a-b;
 
     printf("After Swapping A : %d \nB : %d",a,b);
     getch();
