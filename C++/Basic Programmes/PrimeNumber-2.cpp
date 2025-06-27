@@ -16,9 +16,9 @@ int main()
             count++;
     }
 
-    if(count<2)
-        cout<<"Number is Prime";
+    if(count==1)
+        cout<<"Prime Number";
     else
-        cout<<"Number is not Prime";
+        cout<<"Not a Prime Number";
     return 0;
 }
