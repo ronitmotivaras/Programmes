@@ -4,15 +4,16 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"Enter NUmber : ";
+    cout<<"Enter Number : ";
     cin>>n;
 
-    int fib=0;
+    int n1=0,n2=1,tot=0;
 
-    for(int i=0; i<=n; i++){
-        
+    for(int i=1; i<=n; i++){
+        tot=n1+n2;
+        n1=n2;
+        n2=tot;
+        cout<<tot<<" ";
     }
-
-    cout<<fib;
     return 0;
 }

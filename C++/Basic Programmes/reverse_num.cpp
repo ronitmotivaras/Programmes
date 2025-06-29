@@ -7,14 +7,13 @@ int main()
     cout<<"Enter Number : ";
     cin>>n;
     
-    int rem,num=0;
+    int rem,rev=0;
     while(n>0){
         rem = n%10;
-        num *=10;
-        num +=rem;
+        rev = (rev*10)+rem;
         n /=10;
     }
 
-    cout<<"Reverse Number : "<<num;
+    cout<<"Reverse Number : "<<rev;
     return 0;
 }
