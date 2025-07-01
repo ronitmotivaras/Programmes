@@ -7,21 +7,21 @@ int main()
     cout<<"Enter 3 Numbers : ";
     cin>>a>>b>>c;
 
-    if(a<b){
-        if(b<c){
-            cout<<"C is Max";
+    if(a>b){
+        if(a>c){
+            cout<<"A is Max";
         }
         else{
-            cout<<"B is Max";
+            cout<<"C is Max";
         }
     }
     else
     {
-        if(a<c){
-            cout<<"C is Max";
+        if(b>c){
+            cout<<"B is Max";
         }
         else{
-            cout<<"A is Max";
+            cout<<"C is Max";
         }
     }
     return 0;
